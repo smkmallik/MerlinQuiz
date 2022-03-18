@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: cornsilk;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    background-color: cornsilk;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    height: 80vh;
+}
+
+.navigation-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.category-card-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.category-card-body {
+    background: #ffffff;
+    border-radius: 5px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.play-now-button {
+    font-family: inherit;
+    min-width: 360px;
+    height: 40px;
+    background: #3B82F6;
+    border: none;
+    color: #ffffff;
+}
+
+.football-img {
+    margin-left: 5.5rem;
+    width: 10rem;
+}
+
+.tennis-img {
+    margin-left: 6rem;
+    width: 10rem;
+}
+
+.category-card-heading {
+    font-weight: 600;
+}
+
+.rules-page-redirect {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.quiz-app-title {
+    font-weight: 800;
+    font-size: 26px;
+}
